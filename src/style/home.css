@@ -1,0 +1,43 @@
+.poster img{
+width: 300px;
+height: 270px;
+border-radius: 12px;
+margin: 9px;
+}
+.container{
+    background-color: black;
+    margin:10px auto ;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    color: white;
+    /* box-shadow: 4px 4px 8px #815cc04d; */
+    position: relative;
+    top: 1090px;
+    z-index: -10;
+    height: 100%;
+}
+
+.content{
+    margin-left: 10px;
+    width: 50%;
+}
+.btn button:hover{
+background-color:rgb(95, 48, 203) ;
+cursor: pointer;
+}
+.moviescount{
+    width: 30%;
+    margin:20px auto;
+background-color:rgb(95, 48, 203) ;
+
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

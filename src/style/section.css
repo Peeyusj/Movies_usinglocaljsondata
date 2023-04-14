@@ -1,0 +1,63 @@
+/* .txtouter::before{
+    content:"";
+    background: url(../assets/pxfuel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    opacity: 0.8;
+    z-index: -2;
+    position: absolute;
+    top:70px
+
+} */
+.txtouter{
+    background: url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/movie-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    opacity: 0.8;
+    z-index: -2;
+    font-size: 10px;
+    color:#fff;
+    position: absolute;
+    top:70px;
+    width:100%;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase; 
+    line-height: 2em;
+    padding-top: 30px;
+}
+.out{
+    
+    color: white;
+   position: absolute;
+   top:820px;
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   justify-content: center;
+   align-items: center;
+   width: 70%;
+   z-index: -4;
+   margin-left: 100px;
+}
+.out2{
+    display: flex;
+    
+}
+.sht{
+    
+
+}
+.bt1{
+    margin-left: 200px;
+}
+.bt1 button{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border:2px solid red;
+    width: 180px;
+    height: 55px;
+}
